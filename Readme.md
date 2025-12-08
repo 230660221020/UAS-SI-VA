@@ -5,7 +5,7 @@
 Setiap **kelompok** membangun **RESTful API Backend** menggunakan **Express.js + Prisma + JWT** pada topik bebas hasil riset kelompok.
 Topik harus berasal dari **kasus nyata**, **permasalahan di lingkungan kampus**, atau **ide orisinal**, dan wajib memiliki **relasi data serta fitur CRUD lengkap**.
 
-`API` harus dapat digunakan oleh `frontend` (web atau mobile), baik buatan sendiri maupun_ mock client_.
+`API` harus dapat digunakan oleh `frontend` (web atau mobile), baik buatan sendiri maupun _mock client_.
 
 ## **A. Ketentuan Kelompok**
 
