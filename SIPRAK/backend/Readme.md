@@ -268,14 +268,6 @@ Field yang dikirim akan memperbarui data lama. Field `status` dapat diubah sesua
 }
 ```
 
-**Response Gagal (Bukan Pemilik Data)**
-
-```json
-{
-  "message": "Forbidden"
-}
-```
-
 **Response Validasi Gagal**
 
 ```json
@@ -334,6 +326,7 @@ backend/
 │   ├── config/                 # Konfigurasi aplikasi
 │   │   ├── jwt.js              # Konfigurasi JWT (secret & expiry)
 │   │   └── prisma.js           # Inisialisasi Prisma Client
+│   │   └── index.js            # Export all configs
 │   │
 │   ├── controllers/            # Logika bisnis aplikasi
 │   │   ├── authController.js   # Proses autentikasi (login)
